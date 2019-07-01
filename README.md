@@ -58,3 +58,6 @@ mkdir -p /usr/share/tomcat7/temp
 chmod 664 /etc/systemd/system/tomcat.service
 ```
 
+And now start 
+
+```systemctl start tomcat```
