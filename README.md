@@ -53,4 +53,8 @@ WantedBy=multi-user.target
 
 After that run 
 
-```chmod 664 /etc/systemd/system/tomcat.service```
+```
+mkdir -p /usr/share/tomcat7/temp
+chmod 664 /etc/systemd/system/tomcat.service
+```
+
