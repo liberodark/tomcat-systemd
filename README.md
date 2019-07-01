@@ -50,3 +50,7 @@ ExecStop=/bin/kill -15 $MAINPID
 [Install]
 WantedBy=multi-user.target
 ```
+
+After that run 
+
+```chmod 664 /etc/systemd/system/tomcat.service```
