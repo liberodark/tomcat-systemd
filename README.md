@@ -60,4 +60,7 @@ chmod 664 /etc/systemd/system/tomcat.service
 
 And now start 
 
-```systemctl start tomcat```
+```
+systemctl daemon-reload
+systemctl start tomcat
+```
