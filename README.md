@@ -3,6 +3,8 @@
 Need to see your version 
 
 ```
+sudo find / -name "tomcat7"
+
 /usr/share/tomcat7/bin$ ./version.sh 
 Using CATALINA_BASE:   /usr/share/tomcat7
 Using CATALINA_HOME:   /usr/share/tomcat7
