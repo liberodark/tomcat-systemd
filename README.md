@@ -90,6 +90,25 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+Exemple 3
+
+```
+[Unit]
+Description=Tomcat
+After=syslog.target network.target
+
+[Service]
+Type=forking
+User=root
+WorkingDirectory=/opt/tomcat8/bin
+
+ExecStart=/opt/tomcat8/bin/startup.sh
+ExecStop=/opt/tomcat8/bin/shutdown.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+
 After that run 
 
 ```
