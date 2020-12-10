@@ -31,7 +31,6 @@ Need to edit new service file
 
 ```
 nano /etc/systemd/system/tomcat.service
-
 ```
 
 ```
